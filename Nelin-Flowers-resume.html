@@ -5,25 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Nelin Flowers — Résumé</title>
   <style>
-    @page { size: letter; margin: .52in; }
+    @page { size: letter; margin: .65in; }
     * { box-sizing: border-box; }
-    body { margin: 0; background: #edf2f1; color: #23343a; font-family: Arial, Helvetica, sans-serif; font-size: 10.2pt; line-height: 1.28; }
-    .sheet { width: 8.5in; min-height: 11in; margin: 28px auto; background: #fff; padding: .48in .66in; box-shadow: 0 4px 22px rgba(23,63,73,.16); }
-    header { border-bottom: 2px solid #2e756d; padding-bottom: 12px; margin-bottom: 14px; }
-    h1 { margin: 0; color: #173f49; font-size: 25pt; line-height: 1; letter-spacing: .2px; }
-    .headline { margin: 7px 0 5px; color: #2e756d; font-size: 11pt; font-weight: 700; }
-    .contact { color: #596970; font-size: 9.2pt; }
+    body { margin: 0; background: #fff; color: #111; font-family: "Times New Roman", Times, serif; font-size: 11pt; line-height: 1.18; }
+    .sheet { width: 8.5in; min-height: 11in; margin: 25px auto; padding: .48in .66in; }
+    header { margin-bottom: 14px; text-align: center; }
+    h1 { margin: 0; font-size: 24pt; line-height: 1; }
+    .headline { margin: 5px 0 4px; font-size: 11.5pt; font-weight: bold; }
+    .contact { font-size: 10pt; }
     a { color: inherit; text-decoration: none; }
-    h2 { margin: 13px 0 6px; border-bottom: 1px solid #c7d9d1; color: #173f49; font-size: 11.2pt; letter-spacing: 1.15px; padding-bottom: 3px; text-transform: uppercase; }
+    h2 { margin: 12px 0 5px; border-bottom: 1px solid #111; font-size: 11pt; letter-spacing: .2px; padding-bottom: 2px; text-transform: uppercase; }
     p { margin: 0 0 5px; }
-    .summary { line-height: 1.34; }
-    .role, .edu { display: flex; justify-content: space-between; gap: 18px; margin: 7px 0 3px; color: #20323a; font-weight: 700; }
-    .date { white-space: nowrap; color: #b06f3f; font-weight: 400; }
-    .bullet { margin: 0 0 4px 15px; text-indent: -10px; }
-    .bullet::before { margin-right: 6px; color: #2e756d; content: "•"; }
-    .skills { line-height: 1.42; }
-    .focus { color: #596970; font-size: 9.5pt; }
-    @media print { body { background: #fff; } .sheet { width: auto; min-height: auto; margin: 0; padding: 0; box-shadow: none; } }
+    .summary, .focus { line-height: 1.22; }
+    .role { display: flex; justify-content: space-between; gap: 18px; margin: 7px 0 2px; font-weight: bold; }
+    .role .date { white-space: nowrap; font-weight: normal; }
+    .bullet { margin: 0 0 4px 17px; text-indent: -11px; }
+    .bullet::before { margin-right: 6px; content: "•"; }
+    .edu { display: flex; justify-content: space-between; gap: 18px; margin: 6px 0 2px; font-weight: bold; }
+    .edu .date { white-space: nowrap; font-weight: normal; }
+    .skills { line-height: 1.38; }
+    .focus { margin-bottom: 0; }
+    @media print { .sheet { width: auto; min-height: auto; margin: 0; padding: 0; } }
+    @media (max-width: 700px) { .sheet { width: auto; min-height: auto; margin: 0; padding: 22px; } .role, .edu { display: block; } .date { display: block; margin-top: 2px; } }
   </style>
 </head>
 <body>
@@ -37,7 +40,7 @@
     <h2>Professional Summary</h2>
     <p class="summary">Compassionate Bachelor of Social Work student at SUNY Brockport with an Associate of Science degree and experience supporting elementary school students, communicating with families and clients, resolving conflicts, and maintaining accurate records. Brings attentiveness, a calming presence, a nonjudgmental stance, and dependable follow-through. Seeking a supervised social work internship or B.S.W. field placement to contribute to client-centered support while developing professional practice skills.</p>
 
-    <h2>Professional Experience</h2>
+    <h2>Social Work / Human Services Experience</h2>
     <div class="role"><span>School Bus Driver | First Student, Rochester, NY</span><span class="date">2019–Present</span></div>
     <p class="bullet">Provide safe, dependable transportation while remaining attentive to student well-being, behavior, and changing circumstances.</p>
     <p class="bullet">Maintain a structured, respectful environment by reinforcing expectations consistently and responding to student needs with patience.</p>
@@ -45,6 +48,7 @@
     <p class="bullet">Build positive relationships with students, families, and school personnel through clear, professional, and timely communication.</p>
     <p class="bullet">Use calm conflict-resolution strategies to address concerns, de-escalate disagreements, and support a peaceful ride experience.</p>
 
+    <h2>Other Professional Experience</h2>
     <div class="role"><span>Commercial Inspector | S2 Inspections, Rochester, NY</span><span class="date">2017–2023</span></div>
     <p class="bullet">Conducted detailed commercial inspections with close attention to conditions, documentation, requirements, and established procedures.</p>
     <p class="bullet">Reviewed findings thoroughly to identify concerns and ensure information was recorded clearly and accurately.</p>
